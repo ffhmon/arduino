@@ -15,7 +15,11 @@ Different pulse frequencies, time between calls and sequence lengths can be sele
 <br>
 The transmitter is a common part found on distance measuring sensor-boards for Raspberry Pi or Arduino based devices and shouldn't be too difficult to get. We use a UST-40T and it works very well.<br>
 <br>
-Transmitter and dip switch both are directly connected to digital I/O pins. The comments in the sketch are straight forward and should deliver enough information to help you to build the circuit.
+Transmitter and dip switch both are directly connected to digital I/O pins. The comments in the sketch are straight forward and should deliver enough information to help you to build the circuit.<br>
+<br>
+[The circuit diagram is here (PDF)](https://drive.google.com/open?id=1GlilMBiZqiGxbAndbaeOxABWzOFfWtcV)
+
+
 <hr>
 
 ## environment_logger_v2.ino
@@ -30,7 +34,9 @@ The sketch records environment data with timestamp to a SD-card every 10 minutes
  - 4 x red = file write error
  - 5 x red = error reading sensor
  
- The sketch is commented and should be self-explaining.
+ The sketch is commented and should be self-explaining.<br>
+ <br>
+ [The circuit diagram is here (PDF)](https://drive.google.com/open?id=1U3j8eRHL74bmefr1B9XwP9OxpA8-Vszl)
 
 
 
