@@ -16,5 +16,21 @@ Different pulse frequencies, time between calls and sequence lengths can be sele
 The transmitter is a common part found on distance measuring sensor-boards for Raspberry Pi or Arduino based devices and shouldn't be too difficult to get. We use a UST-40T and it works very well.<br>
 <br>
 Transmitter and dip switch both are directly connected to digital I/O pins. The comments in the sketch are straight forward and should deliver enough information to help you to build the circuit.
+<hr>
+
+## environment_logger_v2.ino
+
+A temperature and humidity logger based on the Arduino data logging shield. The board provides a battery driven real time clock and an SD-card interface. 
+
+The sketch records environment data with timestamp to a SD-card every 10 minutes, so you. A blinking LED provides basic information on error status in the Field:
+ 
+ - 1 x red = Clock module RTC not found 
+ - 2 x red = SD card not found
+ - 3 x red = no filesystem found on SD Card
+ - 4 x red = file write error
+ - 5 x red = error reading sensor
+ 
+ The sketch is commented and should be self-explaining.
+
 
 
